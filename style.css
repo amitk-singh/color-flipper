@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 82vh;
+}
+
+#title {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+}
+
+div h2 {
+  border: 2px solid black;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  height: 18vh;
+  align-items: center;
+}
+
+button {
+  width: 31%;
+  padding: 12px;
+  border-radius: 12px;
+  text-decoration: none;
+  text-shadow: none;
+  border: 2px solid black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+}
